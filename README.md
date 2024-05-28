@@ -2,7 +2,7 @@ Nils hat fehlende Werte in seinem Titanic Datensatz und weiß nicht wie er sie l
 
 1. Klone das Repo in dein lokales Arbeitsverzeichnis.
 2. Erstelle ein Jupyter Notebook in deinem lokalen Repository, und importiere den csv-Datensatz.
-3. Entferne die Spalte `cabin`. Entferne danach aus dem übriggebliebenen Datensatz alle Zeilen in der mindestens ein `NaN` Wert liegt.
+3. Entferne aus dem Datensatz alle Zeilen in denen mindestens ein `NaN` Wert liegt.
 4. Speichere den bereinigten Datensatz in einer neuen csv Datei `"ohne_fehlende_werte.csv"`.
 5. Füge sowohl den bereinigten Datensatz, als auch dein Jupyter Notebook der "staging area" hinzu (`add`), und führe deinen commit aus (`commit`).
 6. Lade die Änderungen auf den Server (`push`).
